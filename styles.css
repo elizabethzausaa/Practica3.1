@@ -17,6 +17,25 @@
     
 }
 
+h1 {
+    font-size: 3rem; /* Ajusta el valor según tus preferencias */
+    letter-spacing: 5px;  
+}
+h1 a {
+    font-size: 3rem; /* Ajusta el valor según tus preferencias */
+    letter-spacing: 5px;  
+    text-align: center;
+}
+
+h3{
+    color: rgb(15, 15, 17);
+    font-size: 1 rem ;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
 body {
  font-family: Arial, Helvetica, sans-serif;
  font-weight: 1000;
@@ -27,14 +46,19 @@ body {
 
 header {
     background: #a6cff5e0;
-    color: #fca504;
+    border-bottom: 1px solid black;
+    color: #fca504f5;
     padding: 1rem 0; /*Agrega relleno superior e inferior del elemento*/
 }
 
 header h1 {
     text-align: center;
+    flex-direction: column;
 }
 nav ul {
+    
+    margin-left: 1rem;
+    margin-right: 1rem;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -45,7 +69,10 @@ nav ul li {
 }
 
 nav ul li a {
-    
+    border-top: 1px solid black; 
+    /*Bordes*/
+    display: flex;
+    flex-direction: column;
     color: #fff;
     text-decoration: none;
     justify-content: center;
