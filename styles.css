@@ -1,0 +1,87 @@
+/*Este archivo sirve para crear los estilos de la página
+
+/* styles.css */
+
+/* Reset básico para eliminar márgenes y padding predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+.comic-neue-light {
+    font-family: "Comic Neue", cursive;
+    font-weight: 3000;
+    font-style: normal;
+    
+}
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 1000;
+ font-style: normal;
+ background-color: rgb (185,179,175);
+ line-height: 1.9;
+}
+
+header {
+    background: #a6cff5e0;
+    color: #fca504;
+    padding: 1rem 0; /*Agrega relleno superior e inferior del elemento*/
+}
+
+header h1 {
+    text-align: center;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav ul li { 
+    justify-content: center;
+}
+
+nav ul li a {
+    
+    color: #fff;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.nav-container ul li{
+    border: 1px solid black; /*Bordes*/
+    display: flex;
+    flex-direction: column;
+    background: #a6cff5e0;
+    color:rgba(19, 21, 19, 0.723);
+    justify-content: center;
+}
+
+.nav-container b{
+    display: flex;
+    background: #a6cff5e0;
+    color:rgba(19, 21, 19, 0.723);
+    justify-content: center;
+}
+
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 0rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
